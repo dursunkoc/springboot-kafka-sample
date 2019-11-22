@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "com.aric.samples.kafka.bootstrap.server",
+  "type": "java.lang.String",
+  "description": "kafka bootstrap server ip:port"
+}]}

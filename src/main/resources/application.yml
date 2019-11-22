@@ -1,0 +1,19 @@
+server:
+  port: 8000
+spring:  application:    name: spring-kafka-sample
+#spring:
+#  kafka:
+#    consumer:
+#      bootstrap-servers: localhost:9192,localhost:9292,localhost:9392
+#      group-id: customerActivation
+#    producer:
+#      bootstrap-servers: localhost:9192,localhost:9292,localhost:9392
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+#      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+com:
+  aric:
+    samples:
+      kafka:
+        bootstrap:
+          server: localhost:9192,localhost:9292,localhost:9392
+  
